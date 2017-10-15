@@ -1,0 +1,67 @@
+
+
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_partes_amarelas_mm), g_color_partes_amarelas_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(tiara_mm), tiara_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(tiara_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(peito_mm), peito_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(peito_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(cinto_mm), cinto_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(cinto_mm));
+
+
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_pele_mm), g_color_pele_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(corpo_amarelo_mm), corpo_amarelo_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(corpo_amarelo_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(pernas_mm), pernas_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(pernas_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(bracos_mm), bracos_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(bracos_mm));
+
+	
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_braceletes_mm), g_color_braceletes_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(braceletes_mm), braceletes_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(braceletes_mm));	
+
+
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_vermelhas_mm), g_color_vermelhas_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(detalhe_peitoVermelho_mm), detalhe_peitoVermelho_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(detalhe_peitoVermelho_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(abdomem_mm), abdomem_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(abdomem_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(botas_mm), botas_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(botas_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(pedra_tiara), pedra_tiara, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(pedra_tiara));
+
+
+//gabiara
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_partes_amarelas_mm), g_color_partes_amarelas_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(detalhe_peito_mm), detalhe_peito_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(detalhe_peito_mm));
+
+
+
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_saia_mm), g_color_saia_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(saia_mm), saia_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(saia_mm));
+
+	
+	glBindBuffer(GL_ARRAY_BUFFER, colorbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(g_color_laco_mm), g_color_laco_mm, GL_STATIC_DRAW);
+	glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(cabo_chicote_mm), cabo_chicote_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_TRIANGLES, 0, sizeof(cabo_chicote_mm));
+	glBufferData(GL_ARRAY_BUFFER, sizeof(laco_mm), laco_mm, GL_STATIC_DRAW);
+	glDrawArrays(GL_LINE_STRIP, 0, sizeof(laco_mm)/8);

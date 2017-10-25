@@ -126,7 +126,7 @@ void MouseKeyboardMovimentObject(){
 	double horizontal = double(xposMouse * 2 - widthWindow)/double(widthWindow);
 	double vertical = double(heightWindow - yposMouse * 2)/double(heightWindow);
 	present = glfwJoystickPresent(GLFW_JOYSTICK_1);
-	if(present=1){
+	if(present==1){
 		const unsigned char *estadobotao = glfwGetJoystickButtons(GLFW_JOYSTICK_1, &botao);
 		if (estadobotao[0] == GLFW_PRESS) 	//BUTTON_UP
 		{		
@@ -234,8 +234,8 @@ void MouseKeyboardMovimentObject(){
 		{	
 			E +=-0.001;
 			EM +=-0.001;
-			GRAUSM+= 6.0;
-			GRAUS+= -6.0;
+			GRAUSM+= 1.0;
+			GRAUS+= -1.0;
 		}
 	
 		if (selecionahulk && glfwGetKey(window, GLFW_KEY_RIGHT_SHIFT) == GLFW_PRESS
